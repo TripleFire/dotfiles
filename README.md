@@ -64,7 +64,7 @@ Install
 Upgrade
 -------
 
-I'm trying to make the install procedure indempotent so you'll just have to
+I'm trying to make the install procedure idempotent so you'll just have to
 call the script again to upgrade your system:
 
     $ ./install.sh 2>&1 | tee ./install.log
